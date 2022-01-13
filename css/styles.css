@@ -1,0 +1,83 @@
+/* GENERAL ELEMENTS */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* TITLES */
+.title {
+    font-size: xx-large;
+}
+
+.page-index .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.page-recipe .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: orange;
+}
+
+/* PAGES */
+.page-index {
+    background-color:rgb(191, 243, 142);
+    text-align: center;
+}
+
+.page-recipe {
+    background-color: wheat;
+}
+
+/* SECTION SPECIFIC */
+.section h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.section.description h2 {
+    color: brown
+}
+
+.section.ingredients li {
+    font-style: italic;
+}
+
+.section.ingredients h2 {
+    color: green
+}
+
+.section.steps li {
+    font-weight: bold;
+}
+
+.section.steps h2 {
+    color:navy
+}
+
+.section.nutrition li {
+    text-decoration: underline;
+}
+
+.section.nutrition h2 {
+    color:  orangered; 
+}
+
+/* IMAGES */
+.recipe-image {
+    width: px;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* OTHER */
+.recipe-list {
+    display: inline-block;
+    text-align: left;
+}
